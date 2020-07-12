@@ -10,3 +10,7 @@ Scan HTTP Headers
 nmap -sV --script=http-headers scanme.nmap.org
 ```
 
+Scan SMB Server
+```
+nmap --script smb-os-discovery -p445 TARGET_IP
+```
