@@ -1,5 +1,10 @@
 # LTHW - nmap - The Network Mapper
 
+DO NOT ping
+```bash
+nmap -Pn TARGET_IP
+```
+
 Scan all ports
 ```bash
 nmap -p- TARGET_IP
